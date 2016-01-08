@@ -1,0 +1,44 @@
+.me {
+  height: 30%;
+  width: 30%;
+  border-radius: 15%;
+  opacity: .5;
+}
+
+.main {
+  text-align: center;
+}
+
+.sidebar {
+  border-left: 1px dotted black;
+  padding-left: 10px;
+  height: 1000px;
+}
+
+header {
+  background-color: grey;
+}
+
+header li {
+transition-duration: 2s;
+text-align: right;
+margin: 20px;
+font-size: 40px;
+
+}
+header li:hover {
+  background-color: green;
+  transition-duration: 2s;
+}
+
+body {
+  padding-top: 100px;
+}
+
+.section {
+  height:500px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.section li:active {
+}

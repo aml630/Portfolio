@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Personal Portfolio</title>
-</head>
-<body>
+   <head>
+      <title>Personal Portfolio</title>
+      <link href = "css/styles.css" media = "all" rel="stylesheet" text = "text/css">
+      <link href = "css/bootstrap.css" media="all" rel="stylesheet" text = "text/css">
+   </head>
+   <body>
+      <div class = "container">
+         <header class = "collapse navbar-collapse navbar-fixed-top">
+            <ul class = "nav navbar-nav navbar-right ">
+               <li class = "active">CSS</li>
+               <li>Javascript</li>
+               <li>C#</li>
+               <li>HTML</li>
+            </ul>
+         </header>
+         <div class = "row main">
+            <h1>About Me</h1>
+            <img class = "me" src = "img/Alex.jpg">
+            <p>Hi there.  These are some projects I've completed in the past to give you
+               a feel for what kind of experience I have
+            </p>
+         </div>
+         <div class = "row">
+            <div class = "main col-sm-6">
+               <div class = "css section">
+                  <h1>CSS</h1>
+                  <ul class="nav nav-pills nav-stacked">
+
+                    <li><a href = "#">Example</a></li>
+                    <li><a href = "#">Example</a></li>
+                    <li><a href = "#">Example</a></li>
+                    <li><a href = "#">Example</a></li>
+
+                  </ul>
 
 
 
-
-
-
-</body>
-
-
-
-
-
+               </div>
+               <div class = "html section">
+                  <h1>HTML</h1>
+               </div>
+            </div>
+            <div class = "sidebar col-sm-6">
+              <div class = "Javascript section">
+                 <h1>Javascript</h1>
+              </div>
+              <div class = "C# section">
+                 <h1>C#</h1>
+              </div>
+            </div>
+         </div>
+      </div>
+      <script src = "http://code.jquery.com/jquery.js"></script>
+      <script src = "js/bootstrap.js"></script>
+   </body>
 </html>
