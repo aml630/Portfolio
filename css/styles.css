@@ -1,8 +1,10 @@
 .me {
-  height: 30%;
-  width: 30%;
+  height: 15%;
+  width: 70%;
   border-radius: 15%;
   opacity: .5;
+  box-shadow: 5px 5px 5px #888888;
+
 }
 
 .main {
@@ -10,8 +12,8 @@
 }
 
 .sidebar {
-  border-left: 1px dotted black;
-  padding-left: 10px;
+  border-left: 1px solid grey;
+  margin-left: 20px;
   height: 1000px;
 }
 
@@ -20,14 +22,17 @@ header {
 }
 
 header li {
-transition-duration: 2s;
+transition-duration: 1s;
 text-align: right;
 margin: 20px;
 font-size: 40px;
+margin: 1px;
+padding: 20px;
+border-right: 1px solid white;
 
 }
 header li:hover {
-  background-color: green;
+  color:white;
   transition-duration: 2s;
 }
 
@@ -36,9 +41,24 @@ body {
 }
 
 .section {
-  height:500px;
+  height:400px;
   box-shadow: 10px 10px 5px #888888;
+  background-color: #F8F8F8 ;
+  margin:20px;
+
+}
+.section p {
+  padding:10px;
 }
 
 .section li:active {
+}
+
+.part {
+  height:auto;
+  border-bottom: 1px solid grey;
+}
+
+.sidebar h2{
+  text-align: center;
 }
